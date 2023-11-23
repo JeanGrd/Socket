@@ -1,4 +1,4 @@
-package org.socket.exercice7;
+package org.socket.exercice8;
 
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;

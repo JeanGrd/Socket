@@ -1,10 +1,9 @@
 package org.socket.exercice4;
 
 import org.socket.LA;
-import org.socket.ListeAuth;
 import org.socket.ListeAuth_2;
-import org.socket.exercice7.ServeurAS_TCP;
-import org.socket.exercice7.ServeurAS_UDP;
+import org.socket.exercice8.ServeurAS_TCP;
+import org.socket.exercice8.ServeurAS_UDP;
 
 public class ServeurAS {
 

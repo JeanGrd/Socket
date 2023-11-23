@@ -1,7 +1,6 @@
-package org.socket.exercice7;
+package org.socket.exercice8;
+import org.socket.JsonLogger;
 import org.socket.LA;
-import org.socket.ListeAuth;
-import org.socket.ListeAuth_2;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -70,8 +69,11 @@ public class ServeurAS_TCPM implements Runnable {
                         }
                     }
 
+                    JsonLogger.log("localhost", 28415,"TCP",command, login, response);
+
                     out.println(response);
                     System.out.println("Réponse envoyée: " + response);
+
                 }
 
                 in.close();
